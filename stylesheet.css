@@ -157,8 +157,11 @@ header {
   
   footer {           
     text-align: center;
-    color:black;
+    color:white;
+    background: #946302; 
+    background-size: cover;
+    background-position: center;
     padding: 2px;
-  }
+}
   
   
