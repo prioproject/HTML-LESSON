@@ -1,82 +1,64 @@
 body {
     margin: 0;
-    font-family: "Lucida Grande";
-  }
-  
-  a {
+    font-family: "sans-serif";
+}
+
+a {
     text-decoration: none;
-  }
-  
-  .container {
+}
+
+.container {
     width: 1170px;
-    margin: 0 auto;
-  }
-  
-  .top-wrapper {
-    padding: 180px 0 100px 0; 
-    background-image:url(header.png);
-    background-size: cover;
+    padding: 0 15px;
+    margin-left: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
     color: #291b00;
+    background-image: url(header.png);
+    background-size: cover;
     text-align: left;
-  }
-  
-  .top-wrapper h1 {
+}
+.top-wrapper h1 {
     opacity: 0.7;
     font-size: 45px;
-    letter-spacing: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .top-wrapper p {
-    opacity: 0.7;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    
+}
+.top-wrapper p {
+    opacity: 0.7px;
     margin-bottom: 3px;
-  }
-  
-  .btn-wrapper {
-    margin: 20px 0;
-  }
-  
-  .btn-wrapper p {
-    margin: 20px 0;
-  }
-  
-  .view {
-    background-color: #843700;
-    color: white;
-  }
-  
- 
-  
-  .btn {
+}
+.btn {
     padding: 12px 24px;
-    color: white;
+    color:white;
     display: inline-block;
+    background-color: #291b00;
     opacity: 0.8;
-    border-radius: 8px;
+    border-radius: 4px;
+}
+.btn-wrapper {
+    margin: 20px 0;
   }
-  
-  .btn:hover {
-    opacity: 1;
-  }
-  
-  .fa {
+.btn:hover {
+    opacity: 2;
+}
+.fa {
     margin-right: 5px;
-  }
-  
-  header {
+}
+header {
     height: 65px;
     width: 100%;
-    background-color:rgba(107, 79, 3, 0.5);
-    /* Ubah position ke fixed, dan top ke 0 */
+    background-color:rgba(105, 95, 68, 0.5);
     position: fixed;
     top: 0;
-    
-    /* Ubah z-index ke 10 */
     z-index: 10;
     
   }
-  
-  .logo {
+
+.logo {
     width: 124px;
     margin-top: 4px;
   }
@@ -92,18 +74,17 @@ body {
   }
   
   .header-right:hover {
-    background-color:rgba(255, 255, 128, .5);
+    background-color:rgba(105, 95, 68, 0.5);
   }
   
   .header-right a {
     line-height: 65px;
     padding: 0 25px;
-    color: white;
+    color:black;
     display: block;
   }
-  
-  .lesson-wrapper {
-    height: 100px;
+.food-wrapper {
+    height: 500px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
     text-align: center;
@@ -119,24 +100,31 @@ body {
     font-weight: normal;
   }
   
-  .lesson {
+  .food {
     float: left;
+    width: 25%;
+    
+    
 
   }
   
-  .lesson-icon {
+  .food-icon {
     position: relative;
+    
   }
   
-  .lesson-icon p {
-    position: absolute;
-    top: 90px;
-    width:10px;
-    color: white;
+  .food-icon p {
+    position: relative;
+    bottom: 10px;
+    background-color:rgb(197, 184, 6);
+    width:100%;
+    color: black;
+    text-align: center;
+
   }
   
   .txt-contents {
-    width: 100%;
+    width: 800;
     display: inline-block;
     margin-top: 20px;
     font-size: 15px;
@@ -166,15 +154,12 @@ body {
     box-shadow: none;
   }
   
-  footer img {
-    width: 125px;
+  footer {           
+    text-align: center;
+    color:white;
+    background: #946302; 
+    width: 100%;
+    padding: 2px;
   }
   
-  footer p {
-    color: #b3aeb5;
-    font-size: 12px;
-  }
   
-  footer {
-    padding-top: 30px;
-  }
