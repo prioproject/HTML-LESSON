@@ -19,6 +19,7 @@ a {
     background-image: url(header.png);
     background-size: cover;
     text-align: left;
+    width: 100%;
 }
 .top-wrapper h1 {
     opacity: 0.7;
@@ -33,7 +34,7 @@ a {
 }
 .btn {
     padding: 12px 24px;
-    color:white;
+    color: white;
     display: inline-block;
     background-color: #291b00;
     opacity: 0.8;
@@ -114,7 +115,7 @@ header {
   }
   
   .food-icon p {
-    position: absolute;
+    position: relative;
     bottom: 5px;
     background-color:rgb(197, 184, 6);
     width:100%;
