@@ -84,7 +84,7 @@ header {
     display: block;
   }
 .food-wrapper {
-    height: 800px;
+    height: 500px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
     text-align: center;
@@ -114,8 +114,8 @@ header {
   }
   
   .food-icon p {
-    position: relative;
-    bottom: 10px;
+    position: absolute;
+    bottom: 5px;
     background-color:rgb(197, 184, 6);
     width:100%;
     color: black;
